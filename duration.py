@@ -7,7 +7,7 @@ Created on Wed Jul 24 14:05:23 2019
 """
 
 
-def calcBondPrice (payment_periods, years_to_maturity, ytm, face_value, coupon):
+def duration(payment_periods, years_to_maturity, ytm, face_value, coupon):
     frequency = payment_periods
     time = years_to_maturity
     ytm = ytm
